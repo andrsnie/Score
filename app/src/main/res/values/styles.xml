@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by andrSnie on 3.03.20 1:17
+  ~ Copyright (c) 2020. All rights reserved.
+  -->
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorButtonNormal">@color/accent</item>
+    </style>
+
+    <style name = "colorBackground">
+        <item name = "android:background">@color/primary_light</item>
+    </style>
+
+    <style name = "team">
+        <item name = "android:layout_width">match_parent</item>
+        <item name = "android:layout_height">wrap_content</item>
+        <item name = "android:gravity">center</item>
+        <item name = "android:padding">16dp</item>
+        <item name = "android:textSize">20sp</item>
+        <item name = "android:textStyle">italic</item>
+        <item name = "android:inputType">textMultiLine</item>
+        <item name = "android:lines">1</item>
+    </style>
+
+    <style name = "teamScore">
+        <item name = "android:layout_width">match_parent</item>
+        <item name = "android:layout_height">wrap_content</item>
+        <item name = "android:gravity">center</item>
+        <item name = "android:paddingBottom">44dp</item>
+        <item name = "android:textColor">@color/primary_text</item>
+        <item name = "android:textSize">139sp</item>
+    </style>
+
+    <style name = "button">
+        <item name = "android:layout_width">match_parent</item>
+        <item name = "android:layout_height">wrap_content</item>
+        <item name = "android:text">@string/goal</item>
+        <item name = "android:textSize">30sp</item>
+    </style>
+</resources>

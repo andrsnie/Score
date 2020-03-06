@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by andrSnie on 3.03.20 1:17
+  ~ Copyright (c) 2020. All rights reserved.
+  -->
+
+<resources>
+    <string name="app_name">Счёт</string>
+	<string name="teamA">Команда А</string>
+    <string name="teamB">Команда Б</string>
+	<string name="scoreA">0</string>
+    <string name="scoreB">0</string>
+    <string name="goal">гол</string>
+    <string name="reset">сброс</string>
+</resources>
